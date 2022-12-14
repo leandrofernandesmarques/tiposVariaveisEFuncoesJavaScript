@@ -11,7 +11,7 @@ minhaFuncao("param")
 const soma = function(num1, num2) { return num1 + num2 }
 console.log(soma(1, 1))
 
-// diferença principal: HOISTING
+// diferença principal: HOISTING(içar para cima)
 // funções e var são "listadas" no topo do arquivo.
 
 console.log(apresentar())
@@ -22,3 +22,5 @@ function apresentar() {
 
 console.log(somaOutroExemplo(1, 1))
 const somaOutroExemplo = function(num1, num2) { return num1 + num2 }
+
+//A funçao é içada, mas a variável não.
